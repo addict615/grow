@@ -239,7 +239,7 @@ img {
     .gallery {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 3rem;
+        grid-gap: 1rem;
     }
 
     .profile-image,
@@ -277,7 +277,7 @@ img {
         }
         
         .gallery {
-        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     }
       
     }
