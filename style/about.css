@@ -248,7 +248,7 @@ img {
     .gallery-item,
     .gallery {
         width: auto;
-        margin: 5px;
+        margin: 3px;
     }
   
     @media (max-width: 40rem) {
