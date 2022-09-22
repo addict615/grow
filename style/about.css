@@ -239,7 +239,7 @@ img {
     .gallery {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 5rem;
+        grid-gap: 3rem;
     }
 
     .profile-image,
@@ -248,7 +248,7 @@ img {
     .gallery-item,
     .gallery {
         width: auto;
-        margin: 3px;
+        margin: 5px;
     }
   
     @media (max-width: 40rem) {
