@@ -170,7 +170,7 @@ img {
     display: none;
   }
 
-  #show-more:checked ~ .lord-img {
+  #show-more:checked ~ .more-img {
     display: none;
   }
 
