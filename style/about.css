@@ -133,7 +133,7 @@ img {
 /*Gallery More*/
 .more-img {
     float: left;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     width: 100%;
