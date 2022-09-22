@@ -140,7 +140,7 @@ img {
  }
 
 .gallery-item:nth-child(n+12){
-   display: block;
+   display: none;
 }
 
 
@@ -149,7 +149,7 @@ img {
   }
 
   #show-more {
-    display: none;
+    display: block;
   }
 
  #show-more-label{
