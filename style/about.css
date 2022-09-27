@@ -193,9 +193,10 @@ img {
         float: none;
         width: auto;
     }
-     .profile-image{
+  
+     /*.profile-image{
         width: calc(40% - 1rem);
-    }
+    }*/
 
     .profile-image img {
         width: 8.7rem;
