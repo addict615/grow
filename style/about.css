@@ -262,9 +262,9 @@ img {
             grid-row-gap: 1.5rem;
         }
 
-/*        .profile-image {
+        .profile-image {
             grid-row: 1 / 2;
-        }*/
+        }
 
         .profile-user-settings {
             display: grid;
