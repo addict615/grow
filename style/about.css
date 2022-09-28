@@ -199,8 +199,11 @@ img {
     }*/
 
     .profile-image img {
-        width: 8.7rem;
+        width: 7.7rem;
+        max-height: 7.7em;
+        object-fit: cover;
         border-radius: 20px;
+        
 
     }
 
