@@ -1,1 +1,221 @@
+/*每頁重複*/
+@import "bourbon";
+
+:root {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 2rem;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+}
+
+.btn:focus {
+    outline: 0.5rem auto #4d90fe;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width:
+.btn:focus {
+    outline: 0.5rem auto #4d90fe;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+ 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Work Section */
+
+.work {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 10rem 2rem;
+}
+
+.work::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.work-slider {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+ article {
+     padding-bottom: 12em ;
+}
+/*.profile-image img {
+    border-radius: 50%;
+}*/
+
+.work-caption,
+.work-tool,
+.work-describe {
+    float: left;
+    width: calc(45% - 2rem);
+    margin: 1.5rem 1.5rem;
+}
+
+.work-settings {
+    font-size: 1.4rem;
+}
+
+.work-caption {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+
+
+.work-describe {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.profile-real-name,
+.profile-stat-count,
+.profile-edit-btn {
+    font-weight: 600;
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .mySlides13 {
+    display: none;
+    box-shadow: 1px 1px 3px #666;
+}
+img {
+  vertical-align: middle;
+   width:100%; 
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 93.5rem;
+  position: relative;
+  margin: 10px auto;
+  float: left;
+  width: calc(55% - 1rem);
+}
+
+
+.prev-next-control {
+  width:55%;
+  float: left;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -80px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  tansition: 0.6s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+  opacity: 0.3;
+}
+
+
+/*---- MOBILE----*/
+@media only screen and (max-width: 40rem) {
+   .work {
+       padding: 8rem 2rem;
+}
+    .slideshow-container {
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+ article {
+     padding-bottom: 5em ;
+}
+   .work-caption,
+   .work-tool,
+   .work-describe {
+         width: 100%;
+         margin: 10px auto;
+}
+  .work-caption{
+         margin-top: -30px;   
+  }   
+    
+  .work-describe {
+    margin: 0 auto 7em;
+  }
+  
+  .prev, .next {
+  position: absolute;
+  margin-top: -50px;
+}
+
+@media only screen and (min-width: 850px) {
+   body {
+        padding: 0 80px;
+    }
+}
+
+
 
