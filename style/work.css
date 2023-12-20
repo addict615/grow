@@ -128,7 +128,7 @@ img {
     display: none;
     box-shadow: 1px 1px 3px #666;
 }
-img {
+.work img {
   vertical-align: middle;
    width:100%; 
 }
