@@ -127,13 +127,13 @@ img {
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .mySlides13 {
     display: none;
     box-shadow: 1px 1px 3px #666;
-    width: calc(55% - 1rem);
 }
 
 * {box-sizing: border-box}
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .mySlides13 img {
   vertical-align: middle;
-   width:100%; 
+  width: calc(55% - 1rem);
+   /**width:100%; **/
 }
 
 /* Slideshow container */
