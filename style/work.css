@@ -130,7 +130,7 @@ img {
 }
 
 * {box-sizing: border-box}
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .mySlides13 img {
+.mySlides1 img, .mySlides2 img, .mySlides3 img, .mySlides4 img, .mySlides5 img, .mySlides6 img, .mySlides7 img, .mySlides8 img, .mySlides9 img, .mySlides10 img, .mySlides11 img, .mySlides12 img, .mySlides13 img {
   vertical-align: middle;
   width: calc(55% - 1rem);
    /**width:100%; **/
