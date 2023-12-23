@@ -117,11 +117,11 @@ img {
     line-height: 1.5;
 }
 
-.profile-real-name,
+/****.profile-real-name,
 .profile-stat-count,
 .profile-edit-btn {
     font-weight: 600;
-}
+}********/
 
 * {box-sizing: border-box}
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .mySlides13 {
