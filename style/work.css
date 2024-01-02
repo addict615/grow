@@ -75,13 +75,6 @@ body {
     clear: both;
 }
 
-.work-slider {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 3rem;
-}
 
  article {
      padding-bottom: 12em ;
@@ -123,6 +116,11 @@ body {
     font-weight: 600;
 }********/
 
+#work-slider {
+   display:block;
+}
+
+
 * {box-sizing: border-box}
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .mySlides13 {
     display: none;
@@ -143,6 +141,7 @@ body {
   float: left;
   width: calc(55% - 1rem);
 }
+
 
 
 .prev-next-control {
