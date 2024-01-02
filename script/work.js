@@ -15,6 +15,7 @@ showSlides(1, 11);
 showSlides(1, 12);
 showSlides(1, 13);
 
+currentSlide(1);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
