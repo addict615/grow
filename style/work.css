@@ -135,6 +135,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
+  display:block;
   max-width: 93.5rem;
   position: relative;
   margin: 10px auto;
