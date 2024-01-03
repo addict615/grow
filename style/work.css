@@ -126,13 +126,14 @@ body {
 .mySlides1 img, .mySlides2 img, .mySlides3 img, .mySlides4 img, .mySlides5 img, .mySlides6 img, .mySlides7 img, .mySlides8 img, .mySlides9 img, .mySlides10 img, .mySlides11 img, .mySlides12 img, .mySlides13 img {
    vertical-align: middle;
    width:100%; 
-   object-fit: cover;
+   object-fit: contain;
 }
 
 /* Slideshow container */
 .slideshow-container {
   display:block;
   max-width: 93.5rem;
+  max-height: 50rem;  
   position: relative;
   margin: 10px auto;
   float: left;
