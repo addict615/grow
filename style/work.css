@@ -120,7 +120,6 @@ body {
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .mySlides13 {
     display: none;
     box-shadow: 1px 1px 3px #666;
-    max-height: 20rem;  
 }
 
 * {box-sizing: border-box}
@@ -134,6 +133,7 @@ body {
 .slideshow-container {
   display:block;
   max-width: 93.5rem;
+  max-height: 20rem;  
   position: relative;
   margin: 10px auto;
   float: left;
