@@ -30,3 +30,10 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+
+/***anchor***/
+jQuery(document).ready(function(e) {
+	var offset = jQuery(':target').offset();
+	var scrollto = offset.top - 60; // minus fixed header height
+	jQuery('html, body').animate({scrollTop:scrollto}, 0);
+})
