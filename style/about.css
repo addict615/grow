@@ -27,15 +27,15 @@ a:link {
 }
 
 a:visited {
-  color: Gainsboro;
+  color: LightGrey;
 }
 
 a:hover {
-  color: FloralWhite;
+  color: Lavender;
 }
 
 a:active {
-  color: FloralWhite;
+  color: Lavender;
 }
 
 .container {
