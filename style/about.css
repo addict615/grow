@@ -22,6 +22,22 @@ img {
     display: block;
 }
 
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: Gainsboro;
+}
+
+a:hover {
+  color: FloralWhite;
+}
+
+a:active {
+  color: FloralWhite;
+}
+
 .container {
     max-width: 93.5rem;
     margin: 0 auto;
