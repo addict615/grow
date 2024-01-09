@@ -27,6 +27,11 @@ body {
     display: block;
 }*******/
 
+:target {
+    padding-top: 65px;
+    margin-top: -65px;
+}
+
 .container {
     max-width: 93.5rem;
     margin: 0 auto;
