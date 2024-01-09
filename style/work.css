@@ -132,7 +132,7 @@ body {
 }
 
 * {box-sizing: border-box}
-.mySlides1 img, .mySlides2 img, .mySlides3 img, .mySlides4 img, .mySlides6 img, .mySlides7 img, .mySlides8 img, .mySlides9 img, .mySlides10 img, .mySlides11 img, .mySlides12 img, .mySlides13 img {
+.mySlides1 img, .mySlides2 img, .mySlides3 img, .mySlides4 img, .mySlides6 img, .mySlides7 img, .mySlides8 img, .mySlides9 img, .mySlides11 img, .mySlides12 img, .mySlides13 img {
    vertical-align: middle;
    width:100%; 
    max-height: 35rem;  
@@ -140,7 +140,7 @@ body {
 }
 
 * {box-sizing: border-box}
-.mySlides5 img {
+.mySlides5 img, .mySlides10 img {
    vertical-align: middle;
    width:100%; 
    max-height: 35rem;  
