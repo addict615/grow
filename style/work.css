@@ -199,8 +199,8 @@ body {
 /*---- MOBILE----*/
 @media only screen and (max-width: 40rem) {
   :target {
-    padding-top: 40px;
-    margin-top: -40px;
+    padding-top: 30px;
+    margin-top: -30px;
 }
     
    .work {
