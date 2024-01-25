@@ -222,15 +222,19 @@ body {
   .work-caption{
          margin-top: -30px;   
   }   
+
+  .work-tool{
+         color: Gray ;
+  }    
     
   .work-describe {
-    margin: 0 auto 7em;
+         margin: 0 auto 7em;
   }
   
   .prev, .next {
-  position: absolute;
-  margin-top: -50px;
-}
+        position: absolute;
+        margin-top: -50px;
+   }
 
 @media only screen and (min-width: 850px) {
    body {
