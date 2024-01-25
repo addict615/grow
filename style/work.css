@@ -50,9 +50,9 @@ body {
     outline: 0.5rem auto #4d90fe;
 }
 
-hr.solid {
+/*****hr.solid {
   border-top: 1px solid #d3d3d3;
-}
+}********/
 
 
 .visually-hidden {
