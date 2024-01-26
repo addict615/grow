@@ -85,7 +85,6 @@ body {
 
 .work::after {
     content: "";
-   /***** display: block;******/
     clear: both;
 }
 
