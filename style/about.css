@@ -185,7 +185,7 @@ a:active {
     font-size: 1.5rem;
     line-height: 14;
     color:#FAFAFA;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-image: rgba(0, 0, 0, 0.4),url(img/work12.jpg);
     cursor: pointer;
     margin: auto;
     padding: 0 2rem;
