@@ -186,6 +186,7 @@ a:active {
     line-height: 14;
     color:#FAFAFA;
     background-image: rgba(0, 0, 0, 0.4),url(img/work12.jpg);
+    background-repeat: no-repeat, no-repeat;
     cursor: pointer;
     margin: auto;
     padding: 0 2rem;
