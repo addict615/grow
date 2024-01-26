@@ -160,12 +160,13 @@ a:active {
 
 .more-img label {
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.blur {
+/*****.blur {
     position: absolute;
     background:url("img/work12.jpg")
-}
+}*********/
 
 
 .gallery-item:nth-child(n+12){
@@ -187,7 +188,6 @@ a:active {
     font-size: 1.5rem;
     line-height: 14;
     color:#FAFAFA;
-    background-color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
     margin: auto;
     padding: 0 2rem;
