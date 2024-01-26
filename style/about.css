@@ -160,7 +160,7 @@ a:active {
     position: absolute;
 }
 
-.more-img blur {
+.blur {
     filter: blur(5px);
 }
 
