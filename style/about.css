@@ -185,8 +185,7 @@ a:active {
     font-size: 1.5rem;
     line-height: 14;
     color:#FAFAFA;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("img/work12.jpg");
-    background-repeat: no-repeat, no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("img/work12.jpg") no-repeat 0% 20%/ cover;
     cursor: pointer;
     margin: auto;
     padding: 0 2rem;
