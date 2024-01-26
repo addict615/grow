@@ -158,10 +158,10 @@ a:active {
     background-size: cover;
  }
 
-.more-img label {
+/*****.more-img label {
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
-}
+}******/
 
 /*****.blur {
     position: absolute;
@@ -193,6 +193,8 @@ a:active {
     padding: 0 2rem;
     text-align: center;
     width: 97%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3); 
 }
 
   #show-more:checked ~ #show-more-label {
