@@ -93,6 +93,7 @@ body {
      padding-bottom: 5em ;
      width: 100%;
      float: left;
+     border-bottom:1px solid #ddd;
 }
 /*.profile-image img {
     border-radius: 50%;
