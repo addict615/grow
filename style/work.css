@@ -91,7 +91,7 @@ body {
 
  article {
      padding-bottom: 12em ;
-     margin: 10px auto;
+      float: left;
 }
 /*.profile-image img {
     border-radius: 50%;
