@@ -90,7 +90,7 @@ body {
 
 
  article {
-     padding-bottom: 20em ;
+     padding-bottom: 12em ;
      margin: 10px auto;
 }
 /*.profile-image img {
@@ -163,7 +163,7 @@ body {
   display:block;
   max-width: 93.5rem;
   position: relative;
-  margin: 20px auto;
+  margin: 10px auto;
   float: left;
   width: calc(55% - 1rem);
 }
