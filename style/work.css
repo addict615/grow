@@ -90,7 +90,7 @@ body {
 
 
  article {
-     padding: 4rem 0 ;
+     padding: 5rem 0 ;
      width: 95%;
      float: left;
      border-bottom:0.5px solid #ddd;
@@ -241,7 +241,7 @@ body {
   }    
     
   .work-describe {
-         margin: 0 auto 6rem;
+         margin: 0 auto 7rem;
   }
   
   .prev, .next {
