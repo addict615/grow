@@ -93,6 +93,7 @@ body {
      padding: 4rem 0 ;
      width: 95%;
      float: left;
+     border-bottom:0.5px solid #ddd;
      border-bottom:1px solid #ddd;
 }
 /*.profile-image img {
