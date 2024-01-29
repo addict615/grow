@@ -181,7 +181,7 @@ a:active {
     display: block;
     order: 2;
     font-size: 1.5rem;
-    line-height: 10;
+    max-height: 14rem;
     color:#FAFAFA;
     cursor: pointer;
     margin: auto;
