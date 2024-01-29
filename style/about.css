@@ -156,13 +156,12 @@ a:active {
     position: relative;
     background: url("https://addict615.github.io/grow/img/work12-0.jpg");
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.3); 
  }
 
-/*****.more-img label {
+.more-img label {
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
-}******/
+}
 
 
 .gallery-item:nth-child(n+12){
