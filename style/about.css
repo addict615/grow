@@ -181,14 +181,14 @@ a:active {
     display: block;
     order: 2;
     font-size: 1.5rem;
-    line-height: 900%;
+    line-height: 12;
     color:#FAFAFA;
     cursor: pointer;
     margin: auto;
     padding: 0 2rem;
     text-align: center;
     width: 98%;
-   /***** position: absolute;*****/
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.3); 
 }
 
