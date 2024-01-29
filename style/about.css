@@ -158,11 +158,6 @@ a:active {
     background-size: cover;
  }
 
-.more-img label {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.3);
-}
-
 
 .gallery-item:nth-child(n+12){
    display: none;
